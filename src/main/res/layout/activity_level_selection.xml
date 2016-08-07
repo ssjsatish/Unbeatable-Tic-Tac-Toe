@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="@drawable/background"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+tools:context="com.seafle.satish.unbeatabletictactoe.LevelSelection">
+
+
+
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Easy"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:fontFamily="monospace"
+    android:textAlignment="center"
+    android:id="@+id/easy"
+    android:layout_marginTop="46dp"
+    android:clickable="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="6dp"/>
+
+
+
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Medium"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:fontFamily="monospace"
+    android:textAlignment="center"
+    android:id="@+id/medium"
+    android:layout_marginTop="48dp"
+    android:layout_below="@+id/easy"
+    android:layout_alignLeft="@+id/easy"
+    android:layout_centerHorizontal="true"
+    android:layout_alignStart="@+id/easy"
+    android:clickable="true"
+    android:paddingTop="6dp"/>
+
+<TextView
+    android:layout_width="150dp"
+    android:layout_height="40dp"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Unbeatable"
+    android:textColor="@color/white"
+    android:textStyle="bold"
+    android:fontFamily="monospace"
+    android:textAlignment="center"
+    android:id="@+id/unbeatable"
+    android:layout_below="@+id/medium"
+    android:layout_alignLeft="@+id/medium"
+    android:layout_alignStart="@+id/medium"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="48dp"
+    android:clickable="true"
+    android:paddingTop="6dp"
+    />
+
+
+
+</RelativeLayout>
