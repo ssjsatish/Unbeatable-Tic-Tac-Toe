@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/accent_material_light</item>
+    <item name="colorPrimaryDark">@color/accent_material_light</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:colorForeground">@color/accent_material_light</item>
+    <!-- <item name="android:navigationBarColor">@color/accent_material_light</item> -->
+    <item name="android:textColorPrimary">@color/abc_search_url_text_normal</item>
+    <item name="android:textColorSecondary">@color/accent_material_light</item>
+    <item name="android:textColorPrimaryInverse">@color/accent_material_light</item>
+    <item name="android:windowBackground">@color/accent_material_light</item>
+    <item name="android:textColorSecondaryInverse">@color/abc_tint_default</item>
+    <item name="android:colorBackground">@color/abc_tint_spinner</item>
+</style>
+</resources>
