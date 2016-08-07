@@ -15,9 +15,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LevelSelection" />
         <activity android:name=".SinglePlayer" />
-        <activity android:name=".TwoPlayer"></activity>
+        <activity android:name=".TwoPlayer" />
+        <activity android:name=".LevelSelection" />
+        <activity android:name=".UnbeatableGame" />
+        <activity android:name=".NormalGame" />
+        <activity android:name=".MediumGame"></activity>
     </application>
 
 </manifest>
