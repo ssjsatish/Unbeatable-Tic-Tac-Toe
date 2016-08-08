@@ -45,11 +45,7 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:id="@+id/b2"
     android:layout_alignBottom="@+id/b1"
     android:layout_toRightOf="@+id/b1"
-    android:layout_toEndOf="@+id/b1"
-   
-
-
-    />
+    android:layout_toEndOf="@+id/b1"    />
 
 <Button
     android:layout_width="60dp"
@@ -141,7 +137,7 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:layout_below="@+id/b5"
     android:layout_alignRight="@+id/b6"
     android:layout_alignEnd="@+id/b6"
-    
+
     />
 
 <Button
@@ -149,8 +145,8 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:layout_height="35dp"
     android:text="@string/new_game"
     android:id="@+id/new_game"
-    android:background="@color/green"
-    android:textColor="@color/white"
+    android:background="@drawable/btn_background"
+    android:textColor="@color/black"
     android:layout_below="@+id/b7"
     android:layout_centerHorizontal="true"
     android:layout_marginTop="20dp"
@@ -160,8 +156,8 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:layout_width="160dp"
     android:layout_height="35dp"
     android:text="@string/reset_scores"
-    android:textColor="@color/white"
-    android:background="@color/green"
+    android:textColor="@color/black"
+    android:background="@drawable/btn_background"
     android:id="@+id/reset_scores"
     android:layout_below="@+id/new_game"
     android:layout_centerHorizontal="true" />
