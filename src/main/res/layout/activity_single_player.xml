@@ -27,7 +27,7 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b1"
     android:layout_marginTop="45dp"
     android:layout_alignParentTop="true"
@@ -41,12 +41,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b2"
     android:layout_alignBottom="@+id/b1"
     android:layout_toRightOf="@+id/b1"
     android:layout_toEndOf="@+id/b1"
-    android:layout_marginLeft="2dp"
+   
 
 
     />
@@ -57,12 +57,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b3"
     android:layout_alignTop="@+id/b2"
     android:layout_toRightOf="@+id/b2"
     android:layout_toEndOf="@+id/b2"
-    android:layout_marginLeft="2dp"/>
+   />
 
 <Button
     android:layout_width="60dp"
@@ -70,12 +70,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b4"
     android:layout_below="@+id/b1"
     android:layout_toLeftOf="@+id/b2"
     android:layout_toStartOf="@+id/b2"
-    android:layout_marginTop="2dp"/>
+    />
 
 <Button
     android:layout_width="60dp"
@@ -83,13 +83,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b5"
     android:layout_below="@+id/b1"
     android:layout_toRightOf="@+id/b1"
     android:layout_toEndOf="@+id/b1"
-    android:layout_marginTop="2dp"
-    android:layout_marginLeft="2dp"/>
+   />
 
 <Button
     android:layout_width="60dp"
@@ -97,13 +96,13 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b6"
     android:layout_alignBottom="@+id/b5"
     android:layout_toRightOf="@+id/b5"
     android:layout_toEndOf="@+id/b5"
     android:layout_marginTop="2dp"
-    android:layout_marginLeft="2dp"/>
+   />
 
 <Button
     android:layout_width="60dp"
@@ -111,12 +110,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b7"
     android:layout_below="@+id/b4"
     android:layout_alignLeft="@+id/b4"
     android:layout_alignStart="@+id/b4"
-    android:layout_marginTop="2dp"/>
+    />
 
 <Button
     android:layout_width="60dp"
@@ -124,12 +123,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b8"
     android:layout_below="@+id/b5"
     android:layout_toLeftOf="@+id/b6"
     android:layout_toStartOf="@+id/b6"
-    android:layout_marginTop="2dp"/>
+    />
 
 <Button
     android:layout_width="60dp"
@@ -137,12 +136,12 @@ tools:context="com.seafle.satish.unbeatabletictactoe.SinglePlayer">
     android:text=""
     android:textSize="32dp"
     android:textColor="@color/black"
-    android:background="@color/white"
+    android:background="@drawable/board_btn"
     android:id="@+id/b9"
     android:layout_below="@+id/b5"
     android:layout_alignRight="@+id/b6"
     android:layout_alignEnd="@+id/b6"
-    android:layout_marginTop="2dp"
+    
     />
 
 <Button
