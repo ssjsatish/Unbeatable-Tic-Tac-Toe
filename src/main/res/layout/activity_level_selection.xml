@@ -26,7 +26,6 @@
         android:clickable="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:paddingTop="6dp"
         android:background="@drawable/btn_background"/>
 
 
@@ -47,7 +46,6 @@
         android:layout_centerHorizontal="true"
         android:layout_alignStart="@+id/normal"
         android:clickable="true"
-        android:paddingTop="6dp"
         android:background="@drawable/btn_background"/>
 
     <Button
@@ -67,7 +65,6 @@
         android:layout_marginTop="48dp"
         android:clickable="true"
         android:background="@drawable/btn_background"
-        android:paddingTop="6dp"
         />
 
 

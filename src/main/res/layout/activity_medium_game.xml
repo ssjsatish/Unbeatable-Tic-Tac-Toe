@@ -7,6 +7,245 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.seafle.satish.unbeatabletictactoe.MediumGame">
+    android:background="@drawable/background"
+    tools:context="com.seafle.satish.unbeatabletictactoe.TwoPlayer">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:textColor="@color/white"
+        android:id="@+id/message_move"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_toEndOf="@+id/b1" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b1"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="75dp"          />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b2"
+        android:layout_alignBottom="@+id/b1"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_toEndOf="@+id/b1"
+
+
+
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b3"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:layout_toEndOf="@+id/b2"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b4"
+        android:layout_below="@+id/b1"
+        android:layout_toLeftOf="@+id/b2"
+        android:layout_toStartOf="@+id/b2"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b5"
+        android:layout_below="@+id/b1"
+        android:layout_toRightOf="@+id/b1"
+        android:layout_toEndOf="@+id/b1"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b6"
+        android:layout_alignBottom="@+id/b5"
+        android:layout_toRightOf="@+id/b5"
+        android:layout_toEndOf="@+id/b5"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b7"
+        android:layout_below="@+id/b4"
+        android:layout_alignLeft="@+id/b4"
+        android:layout_alignStart="@+id/b4"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b8"
+        android:layout_below="@+id/b5"
+        android:layout_toLeftOf="@+id/b6"
+        android:layout_toStartOf="@+id/b6"
+        />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:textSize="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/board_btn"
+        android:id="@+id/b9"
+        android:layout_below="@+id/b5"
+        android:layout_alignRight="@+id/b6"
+        android:layout_alignEnd="@+id/b6"
+
+        />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:text="@string/new_game"
+        android:id="@+id/new_game"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/black"
+        android:layout_below="@+id/b7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="35dp"
+        android:text="@string/reset_scores"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
+        android:id="@+id/reset_scores"
+        android:layout_below="@+id/new_game"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Android : "
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:id="@+id/android_score"
+        android:layout_below="@+id/reset_scores"
+        android:layout_alignRight="@+id/b8"
+        android:layout_alignEnd="@+id/b8"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Human : "
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:id="@+id/human_score"
+        android:layout_below="@+id/android_score"
+        android:layout_alignLeft="@+id/android_score"
+        android:layout_alignStart="@+id/android_score"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Draws :   "
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:textColor="@color/white"
+        android:id="@+id/draws"
+        android:layout_below="@+id/human_score"
+        android:layout_alignLeft="@+id/b7"
+        android:layout_alignStart="@+id/b7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:textColor="@color/white"
+        android:id="@+id/textView5"
+        android:layout_alignTop="@+id/android_score"
+        android:layout_toRightOf="@+id/android_score"
+        android:layout_toEndOf="@+id/android_score"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:textColor="@color/white"
+        android:id="@+id/textView6"
+        android:layout_alignTop="@+id/human_score"
+        android:layout_toRightOf="@+id/human_score"
+        android:layout_toEndOf="@+id/human_score"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="0"
+        android:textColor="@color/white"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/draws"
+        android:layout_toRightOf="@+id/human_score"
+        android:layout_toEndOf="@+id/human_score"
+        android:paddingLeft="10dp"/>
+
+
+
 
 </RelativeLayout>

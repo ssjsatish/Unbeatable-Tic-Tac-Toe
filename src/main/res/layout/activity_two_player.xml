@@ -25,28 +25,28 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b1"
         android:layout_marginTop="45dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="84dp"          />
+        android:layout_marginLeft="75dp"          />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b2"
         android:layout_alignBottom="@+id/b1"
         android:layout_toRightOf="@+id/b1"
         android:layout_toEndOf="@+id/b1"
-        android:layout_marginLeft="2dp"
+
 
 
         />
@@ -55,94 +55,92 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b3"
         android:layout_alignTop="@+id/b2"
         android:layout_toRightOf="@+id/b2"
         android:layout_toEndOf="@+id/b2"
-        android:layout_marginLeft="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b4"
         android:layout_below="@+id/b1"
         android:layout_toLeftOf="@+id/b2"
         android:layout_toStartOf="@+id/b2"
-        android:layout_marginTop="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b5"
         android:layout_below="@+id/b1"
         android:layout_toRightOf="@+id/b1"
         android:layout_toEndOf="@+id/b1"
-        android:layout_marginTop="2dp"
-        android:layout_marginLeft="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b6"
         android:layout_alignBottom="@+id/b5"
         android:layout_toRightOf="@+id/b5"
         android:layout_toEndOf="@+id/b5"
-        android:layout_marginTop="2dp"
-        android:layout_marginLeft="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b7"
         android:layout_below="@+id/b4"
         android:layout_alignLeft="@+id/b4"
         android:layout_alignStart="@+id/b4"
-        android:layout_marginTop="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b8"
         android:layout_below="@+id/b5"
         android:layout_toLeftOf="@+id/b6"
         android:layout_toStartOf="@+id/b6"
-        android:layout_marginTop="2dp"/>
+        />
 
     <Button
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:text=""
-        android:textSize="32dp"
+        android:textSize="45dp"
         android:textColor="@color/black"
-        android:background="@color/white"
+        android:background="@drawable/board_btn"
         android:id="@+id/b9"
         android:layout_below="@+id/b5"
         android:layout_alignRight="@+id/b6"
         android:layout_alignEnd="@+id/b6"
-        android:layout_marginTop="2dp"
+
         />
 
     <Button
@@ -150,8 +148,8 @@
         android:layout_height="35dp"
         android:text="@string/new_game"
         android:id="@+id/new_game"
-        android:background="@color/green"
-        android:textColor="@color/white"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/black"
         android:layout_below="@+id/b7"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
@@ -161,8 +159,8 @@
         android:layout_width="160dp"
         android:layout_height="35dp"
         android:text="@string/reset_scores"
-        android:textColor="@color/white"
-        android:background="@color/green"
+        android:textColor="@color/black"
+        android:background="@drawable/btn_background"
         android:id="@+id/reset_scores"
         android:layout_below="@+id/new_game"
         android:layout_centerHorizontal="true" />
