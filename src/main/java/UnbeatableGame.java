@@ -95,7 +95,7 @@ public class UnbeatableGame extends AppCompatActivity {
         }
 
         void takeHumanInput() {
-            System.out.println("Your move: ");
+            //System.out.println("Your move: ");
             int x = scan.nextInt();
             int y = scan.nextInt();
             Point point = new Point(x, y);
@@ -103,11 +103,11 @@ public class UnbeatableGame extends AppCompatActivity {
         }
 
         public void displayBoard() {
-            System.out.println();
+            //System.out.println();
 
             for (int i = 0; i < 3; ++i) {
                 for (int j = 0; j < 3; ++j) {
-                    System.out.print(board[i][j] + " ");
+                    //System.out.print(board[i][j] + " ");
                 }
                 System.out.println();
 
@@ -193,6 +193,7 @@ public class UnbeatableGame extends AppCompatActivity {
 
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,switchbutton;
     int ar[][] = new int[3][3];
+    int turn = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -208,62 +209,113 @@ public class UnbeatableGame extends AppCompatActivity {
         b8 = (Button)findViewById(R.id.b8);
         b9 = (Button)findViewById(R.id.b9);
         switchbutton = (Button)findViewById(R.id.switchbutton);
-        
+
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                if (b1.getText().toString().equals(""))
+                {
+                    if (turn==2) turn=1;
+                    b1.setText("X");
+                }
+                else if (turn==1) turn=2;
             }
         });
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if(b2.getText().toString().equals(""))
+                {
+                    if(turn==2) turn=1;
+                    b2.setText("X");
+                }
+                else if(turn==1) turn=2;
             }
         });
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                if(b3.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b3.setText("X");
+                }
+                else if(turn==1) turn=2;
             }
         });
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b4.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b4.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
         b5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b5.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b5.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b6.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b6.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b7.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b7.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
         b8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b8.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b8.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
         b9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                if(b9.getText().toString().equals("X"))
+                {
+                    if(turn==2) turn=1;
+                    b9.setText("X");
+                }
+                else if(turn==1) turn=2;
 
             }
         });
-        
+
 
     }
 
